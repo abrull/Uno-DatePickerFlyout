@@ -12,7 +12,7 @@
         <StackPanel Orientation="Horizontal">
             <Button Content="Select Date">
                 <Button.Flyout>
-                    <DatePickerFlyout Date="{Binding Date}"/>
+                    <DatePickerFlyout Date="{Binding Date, Mode=TwoWay}"/>
                 </Button.Flyout>
             </Button>
 
